@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -10,7 +12,7 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Learn <a href="https://nextjs.org">Next.js!</a>
+          Goto <Link href="/posts/first-post"> Fisrt Post </Link>
         </h1>
 
         <p className="description">
@@ -46,6 +48,7 @@ export default function Home() {
             </p>
           </a>
         </div>
+        <img width="50px" height="50px" src="/images/profile.jpeg" alt="Your Name" />
       </main>
 
       <footer>
