@@ -2,9 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from './layout.module.css'
-import utilStyle from '../styles/utils.module.css'
-const name = 'Your Name';
-export const siteTitle = 'Next.js Sample Website';
+import utilStyles from '../styles/utils.module.css'
+const name = 'Yeyuelin';
+export const siteTitle = 'Next Blog';
 
 export default function Layout({children, home}) {
     return (
